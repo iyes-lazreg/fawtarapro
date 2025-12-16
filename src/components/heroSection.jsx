@@ -1,15 +1,15 @@
 import { ArrowRight, BadgeCheck } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-
 const Hero1 = ({
+
   badge = "Conforme au fiscalité tunisienne",
   heading = "Logiciel de facturation et de gestion commerciale",
   description = "Gagnez du temps et optimisez votre entreprise avec notre solution complète qui transforme vos opérations quotidiennes en une expérience fluide et performante.",
   buttons = {
     primary: {
       text: "Commander",
-      url: "https://www.fawtarapro.com",
+      url: "https://www.fawtarapro.com/commander",
     },
     secondary: {
       text: "Voir la démo",
@@ -48,6 +48,7 @@ const Hero1 = ({
   asChild
   variant="outline"
   className="text-white !text-white text-xl bg-blue-600 hover:bg-blue-700 h-[50px] w-[150px]"
+
 >
   <a href={buttons.primary.url}>{buttons.primary.text}</a>
 </Button>

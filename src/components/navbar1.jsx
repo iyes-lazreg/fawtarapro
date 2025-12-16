@@ -17,7 +17,7 @@ const Navbar1 = ({
   return (
     <section className="">
     <div className="fixed top-0 left-0 w-full z-50 bg-[#E9ECEF] px-4">
-  <nav className="hidden lg:flex items-center justify-between min-h-[50px]">
+  <nav className="flex items-center justify-between min-h-[50px]">
     <a href={logo.url} className="flex items-center gap-2">
       <img
         src={logo.src}

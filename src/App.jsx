@@ -4,10 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./MainLayout";
-
+import Commander from "@/components/commander";
 import Home from "@/home/home"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -15,7 +14,7 @@ function App() {
       <MainLayout>
       <Routes>
         <Route path="/" element={<Home />} />
-       
+        <Route path="/commander" element={<Commander />} />
       </Routes>
       </MainLayout>
     </BrowserRouter>
